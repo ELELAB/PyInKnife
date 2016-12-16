@@ -74,9 +74,15 @@ The script will ask you first to select the protein group (i.e keep the protein 
 The average waiting time depends on the trajectory (nº of frames and the system size).
 
 Once the script is running it will create two folders, one called 'contact' and the other 'h-bond' (For the h-bonds, depending on the selection it will calculate with one or another chain .Option:'all','mc-mc','mc-sc','sc-sc' and "no". If you  use "no" in -hb  it won't calculate the h-bonds). Then, if the -jackknife is defined, it will create folders called "resampling" where a 10% of the ensamble has been removed (the number of the folder indicates the positon of the 10% removed, so 0 its the first one and so on).  Inside the "resampling" directories there will be again two folders, 'contact' and 'h-bond' with the results for the new resampled trajectory. 
+
 ------
 PLOTS
 ------
+For the R figures (plots) some libraries are also required:
+- ggplot2
+- ggplot
+- lattice
+
 
 Run the bash script for all the plots: 
 
