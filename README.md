@@ -66,7 +66,7 @@ g_rms -f traj_mol_ur_nojump.xtc -s sim_prot_Mg.tpr -o rmsd.xvg
 
 
 ## Command line
-pyinteraph_pipeline.py -f traj_mol_ur_nojump.xtc -s sim.tpr -cut_off 5.5 -cut_off2 6 -ff charmm27 -k 3 -hb sc-sc -x rmsd.xvg -jackknife
+PyInKnife.py -f traj_mol_ur_nojump.xtc -s sim.tpr -cut_off 5.5 -cut_off2 6 -ff charmm27 -k 3 -hb sc-sc -x rmsd.xvg -jackknife
 
 In this case I am using two cut offs but it will work perfectly with one. 
 The script contains the -h help flag.
