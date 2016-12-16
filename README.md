@@ -83,9 +83,9 @@ Run the bash script for all the plots:
 pipeline_plots.sh 5.5 6 ../rmsd.xvg all sc-sc
 
 
-## 1st argument is the 1 cut off
-## 2nd argument, the 2nd cut off
-## 3rd argument: path containing the rmsd.xvg file
-## 4rd argument is necessary for the calculation of the connected component and hubs distribution
-##The last argument is optional, it could be 'mc-mc','mc-sc' or 'sc-sc'.
-##This script will save the figures inside the contact and h-bond folder. 
+1st argument is the 1 cut off
+2nd argument, the 2nd cut off
+3rd argument: path containing the rmsd.xvg file
+4rd argument is necessary for the calculation of the connected component and hubs distribution
+The last argument is optional, it could be 'mc-mc','mc-sc' or 'sc-sc'.
+This script will save the figures inside the contact and h-bond folder. 
