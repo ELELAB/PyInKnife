@@ -99,7 +99,7 @@ This script will save the figures inside the contact and h-bond folder.
 # Publication
 
 *An optimal distance cutoff for contact-based Protein Structure Networks using side chain center of masses*.
-Juan Salamanca Viloria, Maria Francesca Allega, Matteo Lambrughi, Elena Papaleo*
+Juan Salamanca Viloria, Maria Francesca Allega, Matteo Lambrughi, Elena Papaleo
 Computational Biology Laboratory, Danish Cancer Society Research Center, Strandboulevarden 49, 2100, Copenhagen, Denmark
 SUbmitted for publication
 
