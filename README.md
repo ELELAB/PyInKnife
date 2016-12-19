@@ -90,24 +90,37 @@ pipeline_distribution_plots.sh 5.5 6 ../rmsd.xvg all sc-sc
 
 
 1st argument is the 1 cut off
+
 2nd argument, the 2nd cut off
+
 3rd argument: path containing the rmsd.xvg file
+
 4th argument is necessary for the calculation of the connected component and hubs distribution
+
 The last argument is optional, it could be 'mc-mc','mc-sc' or 'sc-sc'.
+
 This script will save the figures inside the contact and h-bond folder. 
 
 Run the heatmap bash scripts to get the heatmap plots for hubs and connected components (cc): 
 
 heatmap_plots.sh 4.5 4 1 64 65 128
+
 heatmap_cc_plots.sh 4.5 4 1 64 65 128
 
 1st argument is the 1 cut off
+
 2nd argument, the number used for the heatmap pdf plot created
+
 3rd argument: 1st residue used for the region selected to plot
+
 4th argument 2nd resdieu used for the first frame selected
+
 5th and 6th argument : numbers used to select a second frame to plot the heatmap
+
 This script needs to be run inside the pyinteraph folder, i.e the name of the pdf files created with the previous command line would be:
+
   "heatmap_4_1_64.pdf" and "heatmap_4_65_128.pdf" for the hubs. 
+  
   "heatmap_cc_4_1_64.pdf" and "heatmap_cc_4_65_128.pdf" for the connected components. 
 
 
