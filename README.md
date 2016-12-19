@@ -84,7 +84,7 @@ For the R figures (plots) some libraries are also required:
 - lattice
 
 
-Run the bash script for all the plots: 
+Run the bash script for all the plots for the hubs and connected components distribution: 
 
 pipeline_plots.sh 5.5 6 ../rmsd.xvg all sc-sc
 
