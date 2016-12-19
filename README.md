@@ -86,7 +86,7 @@ For the R figures (plots) some libraries are also required:
 
 Run the bash script for all the plots for the hubs and connected components distribution: 
 
-pipeline_distribution_plots.sh 5.5 6 ../rmsd.xvg all sc-sc
+- pipeline_distribution_plots.sh 5.5 6 ../rmsd.xvg all sc-sc
 
 
 1st argument is the 1 cut off
@@ -103,9 +103,9 @@ This script will save the figures inside the contact and h-bond folder.
 
 Run the heatmap bash scripts to get the heatmap plots for hubs and connected components (cc): 
 
-heatmap_plots.sh 4.5 4 1 64 65 128
+- heatmap_plots.sh 4.5 4 1 64 65 128
 
-heatmap_cc_plots.sh 4.5 4 1 64 65 128
+- heatmap_cc_plots.sh 4.5 4 1 64 65 128
 
 1st argument is the 1 cut off
 
